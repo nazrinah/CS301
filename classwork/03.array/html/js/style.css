@@ -1,0 +1,12 @@
+.userForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 600px;
+}

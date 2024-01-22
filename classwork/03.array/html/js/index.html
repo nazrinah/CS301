@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="userForm">
+    <form id="myForm">
+        <h2>User Form</h2>
+        <label for="username">İstifadəçi adı:</label>
+        <input type="text" id="username" placeholder="Adını yaz" required>
+<br>
+<br>
+        <label for="email">E-poçt:</label>
+        <input type="email" id="email" placeholder="E-poçt ünvanını yaz" required>
+        <br>
+        <br>
+        <label for="password">Şifrən:</label>
+        <input type="password" id="password" placeholder="Şifrəni yaz" required>
+        <br>
+        <br>   
+        <label for="confirmpassword">Şifrən:</label>
+        <input type="password" id="confirmpassword" placeholder="Təkrar şifrəni yaz" required>
+        <br>
+        <br> 
+        <!-- <label for="admin">Adminsən?</label>
+        <input type="checkbox" id="admin"> -->
+
+<label for="university"></label>
+<select name="university" id="university" required>
+  <option value hidden selected>Universitet</option> 
+  <option value="">None</option>
+  <option value="DGKA">DGKA</option>
+  <option value="ADA">ADA</option>
+  <option value="ADNSU">ADNSU</option>
+  <option value="UNEC">UNEC</option>
+  <option value="BDU">BDU</option>
+
+</select>
+
+<label for="city"></label>
+<select name="city" id="city" required>
+    <option value hidden selected>Şəhər</option> 
+    <option value="">None</option>
+    <option value="Baku">Bakı</option>
+    <option value="Sumgayit">Sumqayıt</option>
+    <option value="Tovuz">Tovuz</option>
+    <option value="Sheki">Şəki</option>
+    <option value="Nakhchivan">Naxçıvan</option>
+  
+  </select>
+  <br>
+  <br>
+
+  <label for="file"></label>
+  <input type="file" id="file" required>
+  <br>
+  <br>
+  <label for="gender">Cinsiyyətiniz?</label>
+  <input type="radio" id="gender" value="male"> Kişi
+  <input type="radio" id="gender" value="female"> Qadın
+  <br>
+  <br>
+
+        <button type="submit" id="button" disabled="disabled">Bitirin</button>
+    </form>
+    <img src="rocket.png" alt="">
+   </div>
+   <script src="./script.js" ></script>
+   
+</body>
+</html>
